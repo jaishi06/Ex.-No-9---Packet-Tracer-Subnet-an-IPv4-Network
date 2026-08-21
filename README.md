@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 21/08/26
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -21,6 +21,7 @@ ________________________________________
 ________________________________________<br>
 # Network Topology Diagram
 (Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
+<img width="1906" height="1072" alt="Screenshot 2026-08-20 141947" src="https://github.com/user-attachments/assets/1979105a-1288-4786-b45f-b13c4af5b0ae" />
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -94,9 +95,12 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+<img width="1847" height="997" alt="Screenshot 2026-08-21 144849" src="https://github.com/user-attachments/assets/57ddbe6b-91a3-4987-8b06-0c7cac97df39" />
 •	show ip route<br>
+<img width="1530" height="1032" alt="Screenshot 2026-08-21 144741" src="https://github.com/user-attachments/assets/5e5b2d77-6fb6-45d5-a995-a3286cdfb39f" />
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
+<img width="1648" height="1033" alt="Screenshot 2026-08-21 142054" src="https://github.com/user-attachments/assets/bd1202e0-6a63-4cfb-8d5e-63de2f120713" />
 
